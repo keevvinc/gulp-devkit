@@ -1,0 +1,34 @@
+{
+  "name": "new-gulp",
+  "description": "Modern Gulp.js project with Bower support",
+  "main": "index.js",
+  "authors": [
+    "Kevin Čížik <kevincizik@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "bower",
+    "frontend"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

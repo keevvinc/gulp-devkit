@@ -1,0 +1,48 @@
+@use '../abstracts/variables' as *;
+
+.color-white { color: $white; }
+.color-black { color: $black; }
+
+.color-gray-100 { color: $gray-100; }
+.color-gray-200 { color: $gray-200; }
+.color-gray-300 { color: $gray-300; }
+.color-gray-400 { color: $gray-400; }
+.color-gray-500 { color: $gray-500; }
+.color-gray-600 { color: $gray-600; }
+.color-gray-700 { color: $gray-700; }
+.color-gray-800 { color: $gray-800; }
+.color-gray-900 { color: $gray-900; }
+
+.color-primary { color: $primary; }
+.color-primary-light { color: $primary-light; }
+.color-primary-dark { color: $primary-dark; }
+.color-secondary { color: $secondary; }
+.color-accent { color: $accent; }
+.color-success { color: $success; }
+.color-warning { color: $warning; }
+.color-danger { color: $danger; }
+
+.bg-white { background-color: $white; }
+.bg-black { background-color: $black; }
+
+.bg-gray-100 { background-color: $gray-100; }
+.bg-gray-200 { background-color: $gray-200; }
+.bg-gray-300 { background-color: $gray-300; }
+.bg-gray-400 { background-color: $gray-400; }
+.bg-gray-500 { background-color: $gray-500; }
+.bg-gray-600 { background-color: $gray-600; }
+.bg-gray-700 { background-color: $gray-700; }
+.bg-gray-800 { background-color: $gray-800; }
+.bg-gray-900 { background-color: $gray-900; }
+
+.bg-primary { background-color: $primary; }
+.bg-primary-light { background-color: $primary-light; }
+.bg-primary-dark { background-color: $primary-dark; }
+.bg-secondary { background-color: $secondary; }
+.bg-accent { background-color: $accent; }
+.bg-success { background-color: $success; }
+.bg-warning { background-color: $warning; }
+.bg-danger { background-color: $danger; }
+
+.bg-light { background-color: $bg-light; }
+.bg-dark { background-color: $bg-dark; }

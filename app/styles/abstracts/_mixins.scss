@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+@mixin background($url) {
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background: {
+        repeat: no-repeat;
+        position: center center;
+        size: cover;
+        image: url($url);
+    };
+}
+
+@mixin animation($time:200ms) {
+    -moz-transition: all $time linear;
+    -o-transition: all $time linear;
+    -ms-transition: all $time linear;
+    -webkit-transition: all $time linear;
+    transition: all $time linear;
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

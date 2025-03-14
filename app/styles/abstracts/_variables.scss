@@ -1,0 +1,39 @@
+$content-sm: 20px;
+$content-md: 40px;
+$content-lg: 60px;
+
+$white: #ffffff;
+$black: #212529;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$primary: #e5733d;
+$primary-light: #f09c7a;
+$primary-dark: #d15a25;
+$secondary: #4d6a8a;
+$accent: #5ac7aa;
+$success: #5ac77f;
+$warning: #ffaa3e;
+$danger: #e55c5c;
+
+$bg-light: #f8f9fa;
+$bg-dark: #1e2c3c;
+
+$screen-xxs-min: 320px;
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$screen-xxs-max: ($screen-xxs-min - 1);
+$screen-xs-max: ($screen-xs-min - 1);
+$screen-sm-max: ($screen-sm-min - 1);
+$screen-md-max: ($screen-md-min - 1);
+$screen-lg-max: ($screen-lg-min - 1);
